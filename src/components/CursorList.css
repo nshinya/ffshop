@@ -1,0 +1,20 @@
+.CursorList {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.CursorList li > * {
+  margin-left: 2em;
+  cursor: default;
+}
+
+.CursorList li.selectable > *:hover:before {
+  content: "☞　";
+  margin-left: -2em;
+}
+
+.CursorList.horizontal {
+  display: flex;
+  justify-content: space-around;
+}

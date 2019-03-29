@@ -1,0 +1,7 @@
+.black:before {
+  content: "●";
+}
+
+.white:before {
+  content: "〇";
+}

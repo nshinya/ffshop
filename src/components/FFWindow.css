@@ -1,0 +1,25 @@
+.ffwindow{
+  display: block;
+
+  /* 余白 */
+  margin: 9px;
+  padding: 20px;
+
+  /* 背景色 */
+  background-color: blue;
+  background : linear-gradient(#3366ff, #0033cc, #000066);
+
+  /* 文字 */
+  color: white;
+  text-shadow : 2px 2px 2px rgba(51, 51, 51, 0.8);
+
+  /* 枠 */
+  /* https://qiita.com/takayuki_kito/items/f7e8cc9a32802432000f */
+  /*border: solid 5px white;*/
+  border-radius: 8px;
+  box-shadow :
+  3px 3px 7px rgba(51, 51, 51, 0.7) inset,
+  0 0 1px 3px #666666,
+  0 0 0 6px #ffffff,
+  0 0 1px 8px #666666;
+}
