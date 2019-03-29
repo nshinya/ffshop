@@ -1,3 +1,3 @@
 # ffshop
 
-<img src="ffshop.gif" />
+<img src="https://github.com/nshinya/ffshop/blob/master/ffshop.gif" />
